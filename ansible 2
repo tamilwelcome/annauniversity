@@ -18,3 +18,5 @@ ssh-copy-id ansadmin@<target-server>
 ansible all -m ping
 new docker added
 docker image added
+new fiel 1
+new file 2
