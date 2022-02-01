@@ -3,7 +3,7 @@ All  nodes
 yum install python3 -y
 alternatives --set python /usr/bin/python3
 python --version
-useradd ansadmin
+useradd docker
 passwd ansadmin
 echo "ansadmin ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
  sed -ie 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
@@ -16,6 +16,6 @@ ansible --version
 ssh-keygen
 ssh-copy-id ansadmin@<target-server>
 ansible all -m ping
-
+new docker added
 
 
