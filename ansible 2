@@ -17,5 +17,5 @@ ssh-keygen
 ssh-copy-id ansadmin@<target-server>
 ansible all -m ping
 new docker added
-
+docker image added
 
